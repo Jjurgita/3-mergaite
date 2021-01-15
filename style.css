@@ -116,9 +116,16 @@ section > img {
   section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 16px;
   }
   section > img {
-    float: left;
-    margin: 0;
+    width: 190px;
+    height: 110px;
   }
 }
